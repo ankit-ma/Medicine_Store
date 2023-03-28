@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="addMedicinePane" prefHeight="360.0" prefWidth="580.0" style="-fx-background-color: #bdfcc2#bdfcc2;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.views.AddMedicine">
+   <children>
+      <ListView layoutX="162.0" layoutY="45.0" prefHeight="200.0" prefWidth="231.0" />
+      <Label fx:id="idLabel" layoutX="173.0" layoutY="68.0" text="Id" />
+      <TextField fx:id="idText" layoutX="210.0" layoutY="64.0" />
+      <TextField fx:id="nameText" layoutX="210.0" layoutY="103.0" />
+      <Label fx:id="nameLabel" layoutX="173.0" layoutY="108.0" text="Name" />
+      <Label layoutX="173.0" layoutY="137.0" />
+      <TextField fx:id="priceText" layoutX="210.0" layoutY="144.0" />
+      <Label fx:id="priceLabel" layoutX="173.0" layoutY="149.0" text="price" />
+      <Button fx:id="addMedicineButton" layoutX="231.0" layoutY="192.0" mnemonicParsing="false" onAction="#addMedicineButtonListner" style="-fx-background-color: #88fc03#88fc03 #88fc03#88fc03 #88fc03#88fc03 #88fc03#88fc03;" text="Add Medicine" />
+      <Button fx:id="homeButton" layoutX="33.0" layoutY="18.0" mnemonicParsing="false" onAction="#homeButtonListner" prefHeight="54.0" prefWidth="56.0" style="-fx-background-color: #bc3f67#bc3f67 #bc3f67#bc3f67 #bc3f67#bc3f67 #bc3f67#bc3f67; -fx-background-radius: 50%; -fx-border-radius: 50%; -fx-border-style: solid;" text="Home" textFill="WHITE" />
+   </children>
+</AnchorPane>

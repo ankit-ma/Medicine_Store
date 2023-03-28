@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.panels.MedicalStore">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="9" y="18" width="526" height="300"/>
+    </constraints>
+    <properties>
+      <background color="-5840910"/>
+      <minimumSize width="526" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="b8916" class="javax.swing.JButton" binding="addmedicinebtn">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="50" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <actionCommand value="Add medicine"/>
+          <background color="-5840910"/>
+          <font name="Arial Rounded MT Bold"/>
+          <label value=" Add Medicine"/>
+          <text value=" Add Medicine"/>
+        </properties>
+      </component>
+      <component id="e8882" class="javax.swing.JButton" binding="deleteMedicinebtn">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="50" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <actionCommand value="deleteMedicine"/>
+          <background color="-5840910"/>
+          <font name="Arial Rounded MT Bold"/>
+          <label value="Delete Medicine"/>
+          <text value="Delete Medicine"/>
+        </properties>
+      </component>
+      <component id="2c594" class="javax.swing.JButton" binding="updateMedicinebtn">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="50" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5840910"/>
+          <font name="Arial Rounded MT Bold"/>
+          <label value="Update Medicine"/>
+          <text value="Update Medicine"/>
+        </properties>
+      </component>
+      <component id="87e6e" class="javax.swing.JButton" binding="showAllbtn">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="50" left="0" bottom="50" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-5840910"/>
+          <font name="Arial Rounded MT Bold"/>
+          <label value="Show All"/>
+          <text value="Show All"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

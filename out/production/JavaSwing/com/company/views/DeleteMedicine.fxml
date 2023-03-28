@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="deletePane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fcc6bd#fcc6bd;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.views.DeleteMedicine">
+   <children>
+      <Button fx:id="deleteButton" layoutX="257.0" layoutY="233.0" mnemonicParsing="false" onAction="#deleteButtonListner" style="-fx-background-color: crimson;" text="Delete" textFill="#f8f7f7" />
+      <Label fx:id="idLabel" layoutX="106.0" layoutY="158.0" text="Id to be Deleted" />
+      <TextField fx:id="input" layoutX="204.0" layoutY="153.0" />
+      <Button fx:id="homeButton" layoutX="34.0" layoutY="37.0" mnemonicParsing="false" onAction="#homeButtonListner" prefHeight="56.0" prefWidth="59.0" style="-fx-background-color: #bc3f67#bc3f67 #bc3f67#bc3f67; -fx-border-radius: 50%; -fx-background-radius: 50%; -fx-border-style: solid;" text="Home" textFill="#fcfcfc" />
+   </children>
+</AnchorPane>
